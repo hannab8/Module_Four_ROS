@@ -2,9 +2,7 @@
 # Module Four: ROS
 
 ## Introduction
-In this fourth module, you will be introduced to maintaining proper documentation within your code and on GitHub. This is important in the lab and in any situation where you will be tasked with coding. The team leads will be reviewing code before it gets pushed, but it must be properly documented before this is done. The reason we want to emphasize the importance of this is so that other students, including yourself, can always go back and understand what your code does and why it does it.
-
-Our team uses C++ and/or Python for our projects. If you are not familiar with these, some references on each will be provided below. We suggest that you follow a tutorial on either one to get more comfortable with coding using one of those languages.
+In this fourth module, you will be introduced 
 
 ## Module Readings
 
