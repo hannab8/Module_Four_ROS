@@ -2,9 +2,10 @@
 # Module Four: ROS
 
 ## Introduction
-In this fourth module, you will be introduced 
+In this fourth module, you will be introduced to ROS (Robot Operating System). It's an open source framework that allows us to develop and control the robot using the tools and libraries that it provides. We will show you how to install ROS and begin to make use of it. Please be sure to follow the instructions as they are written. We want to make sure that you are using the same version we use here in the lab.
 
 ## Module Readings
+
 
 
 ## Assignment
