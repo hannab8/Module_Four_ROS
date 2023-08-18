@@ -6,7 +6,20 @@ In this fourth module, you will be introduced to ROS (Robot Operating System). I
 
 ## Module Readings
 
+1. **Topics:** A communication channel used in the ROS framework to facilitate the exchange of data between different nodes in a robotic system. 
+2. **Nodes:** Individual components that perform tasks, such as sensor data processing, motor control, or higher-level decision-making. They communicate with                each other by publishing and subscribing to topics.<br><br>
+         2a. **Publisher:** A node that wants to share some data, such as sensor readings, and creates a topic and publishes messages to it.<br>
+         2b. **Subscriber:** A node that is interested in the type of data that is being published and can subscribe to the topic. They receive the                                         messages published on the topic and can process the information as needed.<br>
+         
+3. **Messages:**
+4. Packages
+5. Code
 
+Example:
+
+Topic: "/move_robot"
+
+Message Type: "geometry_msgs/Twist"
 
 ## Assignment
 
