@@ -77,50 +77,34 @@ rospy.spin()
       - Create new branch called: <YourName>_Module_Four
       - Checkout your new branch
 
-2.  Open the turtle_go.cpp file (module_Four_ROS/src/turtle_go.cpp)
+2.  Open the turtle_go.cpp file (Module_Four_ROS/src/turtle_go.cpp)
       - Make the changes that the file is requesting you to make. (feel free to review to doc file within the package)
       - You can use the solution.cpp file for reference, but try to do it on your own as best as you can first.
 
-3.  When you complete the task, 
+3.  When you complete the task, go back to your terminal.
+      - Go to your catkin_ws: cd ~/catkin_ws
+      - Compile the program: catkin_make (fix any errors that may come up)
+      - Open two more terminals (ctrl-t)
+      - Terminal 1 - Run roscore: roscore (current terminal)
+      - Terminal 2 - Run turtlesim: rosrun turtlesim turtlesim_node
+      - Terminal 3 - Run program: rosrun Module_Four_ROS turtle_go
 
-2.  Create a new repository called: <YourName>_Module_Four
+4.  Stage, commit, and push your changes.
+      - Commit Message: "Completed Task Four "
+  
+5.  Go back to the GitHub website, then go to the settings tab and under 'Access' click on 'Collaborators'.
+    - Click the green 'Add People' button
+    - Type in: hannab8
+    - Click 'Add Hanna to this repository'
 
-3.  Edit your Readme file and format it using the following:
-      - Please use a 5 line gap after the previous assignment
-      - The first line: "<YourName> Module Four" using H1 (header one)
-      - The third line: "Answers:" using H2 (header two)
-      - The fifth line: Start an ordered List (1.)
+6.  Click on the code tab once you've committed your changes, then click the green button labeled 'Compare & pull request'. 
 
-4.  
-6. Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Task Three"
-
-7. Open one of the files labeled 'Mod2_python.py' or 'Mod2_c.cpp' (One is a python file, the other is C++):
-      - Save the file in a safe space on your desktop/workspace.
-      - Review the file and add comments to the code that tells the reader what it does.
-      - Save the document as "Module3-Q7" and stage, commit, and push it to the Module3 branch in the repository.
-
-8.  Create a simple program in Python or C++ where you add the sum of two numbers and determine if the sum is odd or even.
-      - Name your file: Mod3_Q8
-      - Remember to use appropriate naming conventions for your functions and variables.
-      - Add comments to the code.
-      - Stage, commit, and push your file to the Module3 branch in your repository.
-
-9.  Go back to your Readme file, and add the documentation of your Mod3_Q8 file. (See example below)
-
-10. Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Three"
-
-11.  Go back to the code tab once you've committed your changes, and click the green button labeled 'Compare & pull request'
-
-12.  Fill in the pull request:
-    - Title: Task three
+7.  Fill in the pull request:
+    - Title: Task Four
     - Comment: [ Please write a one-two sentence summary of what you did for this assignment ]
     - Assignees: [ Choose the team lead member who is overseeing modules ]
 
-
-
-6.  And now you are done! Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Four"
-
-
+8.  And now you are done! :sparkles:
 
 ## References
 
